@@ -1,0 +1,19 @@
+footer{
+    height:88px;
+    width:1349px;
+    padding-top:12px;
+    padding-bottom:12px;
+  }
+  footer div{
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:167px;
+    margin-right:167px;
+    font-size:12px;
+    text-align:center;
+    color:#747474;
+  }
+  footer div a{
+    color:#3d83df;
+    text-decoration:none;
+  }

@@ -1,0 +1,55 @@
+.service{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+
+
+  padding-left: 40px;
+  overflow:hidden;
+  padding-top: 22px;
+  margin: 10px;
+  border-radius: 10px;
+    
+  padding-right:40px;
+}
+h2{
+    color: #fff;
+  opacity: 0.7;
+  font-size: 14px;
+  margin-right: 40px;
+}
+
+h1 {
+    font-size: 26px;
+    color: #ffffff;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+    margin-right: 40px;
+  }
+
+  figure {
+    display: block;
+    width: 397px;
+    height: 248px;
+    margin-left: 40%;
+    margin-right: -40px;
+    overflow: hidden;
+    
+  }
+
+  img {
+    display: block;
+    width: 397px;
+    height: 248px;
+  }
+
+  select {
+    background: #fff;
+    opacity: 0.9;
+    height: 40px;
+    padding-left: 18px;
+    padding-right: 42px;
+    font-size: 0.75rem;
+    border-radius: 4px;
+  }

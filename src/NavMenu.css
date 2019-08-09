@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Helvetica);
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  }
+
+
+nav{
+    width: 30%;
+    font-family: Helvetica, Arial, sans-serif;
+  
+}
+
+
+.mainmenu{
+    display: flex;
+    flex-direction: row;
+   
+}
+li{
+    margin-left:5px;
+    margin-right: 5px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+
+a{
+    color: #ababab;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #00b39b;
+    text-decoration: none;
+}
+li ul{
+    display: none;
+    flex-direction: column;
+   
+    position: absolute;
+    padding: 0;
+    margin-left:-100px;
+   
+}
+
+li ul li{
+    margin: 5px;
+}
+
+.mainmenu li:hover > ul,
+.mainmenu li ul:hover {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  box-shadow:0 5px 10px 0 #d3cfc9;   
+
+}

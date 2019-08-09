@@ -1,0 +1,181 @@
+main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.lead-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#docplanner-logo{
+    width: 40px;
+    height: 40px;
+}
+.lead-div h1{
+    color: #00b39b;
+    margin :5%;
+}
+.lead-div p{
+    margin:10px;
+    line-height: 28px;
+    color:#747474;
+    font-weight: 400;
+    padding: 15px;
+
+}
+
+
+/*-----------------------------------------------*/
+
+.fade-element-div {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+   }
+
+
+
+   /*-------------------------------------------------------------------*/
+
+   
+
+.brand-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  
+  }
+  .brand-div h1 {
+    width: 31%;
+    font-size: 26px;
+    line-height: 33.8px;
+    letter-spacing: 0.3px;
+    text-align: start;
+    color: #00b39b;
+    padding-right: 60px;
+    font-weight: 300;
+    margin :0px;
+  }
+  .brand-div ul {
+    list-style-type: none;
+    width: 653px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:0;
+  }
+  
+  .brand-div li {
+    width: 135px;
+    height: 35px;
+  }
+  .brand-div ul svg {
+    fill: hsla(0, 0%, 67%, 0.7);
+    height: 20px;
+    width: auto;
+  }
+  
+  /*-------------------------------------------------------------*/
+
+  .stats-div {
+    display: flex;
+    flex-direction: row;
+    background-color: #dbf7f7;
+    width: 1349px;
+    height: 600px;
+    padding-top: 30px;
+     
+      justify-content: space-between;
+  }
+  .stats-div > .grid:first-child img {
+    
+    margin-top:45px;
+    overflow: hidden;
+    width: 456px;
+    height : 435px;
+  }
+  .stats-div h1 {
+    color: #00b39b;
+    font-size: 34px;
+    font-weight: 300;
+  }
+  .stats-div p {
+    color: #747474;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 415px;
+  }
+  .stats-col {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+  .stats {
+   
+    overflow:hidden;
+    background-color: #dbf7f7;
+    
+  }
+  .stats-col .grid {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+ 
+  .stats-col .grid:last-child {
+  /*  transform: translateY(-30px);*/
+        margin-top: -20px;
+  }
+
+  .stats-header {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 497px;
+    height: 200px;
+  }
+  /*--------------------------------------------------------------------------*/
+
+  .offices-div{
+    display:flex;
+    flex-direction:column;
+    margin-left:167px;
+    margin-right:167px;
+    padding:20px;
+  }
+  .offices-div .office-div-header{
+    margin-left:250px;
+    margin-right:250px;
+  }
+  
+  .offices-div .office-div-header h1{
+    color:#00b39b;
+    font-size:30px;
+    font-weight:300;
+    text-align:center;
+    line-height:39px;
+  }
+  
+  .offices-div .office-div-header p{
+    color:#747474;
+    font-size:14px;
+    font-weight:300;
+    text-align:center;
+      line-height:24px;
+  
+  }
+  .offices-slider{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:995px;
+  }
+  
